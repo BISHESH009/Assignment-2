@@ -32,7 +32,7 @@ public class AssigTwo226
     {
 		// final local variables
 		final String FILENAME = "votes.csv";	// Filename of the file holding the dataset
-		final int LIMIT = 10;    // number of votes to process; reduce to, e.g., 1 then 10 then 50 then 100, then 1000, then Integer.MAX_VALUE when debugging
+		final int LIMIT = 100;    // number of votes to process; reduce to, e.g., 1 then 10 then 50 then 100, then 1000, then Integer.MAX_VALUE when debugging
 		final int POSITIONS = 1;				// Number of positions to elect; reduce to, e.g., 1 then 2, then 4 when debugging
 
 		// non final local variables
