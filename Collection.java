@@ -216,6 +216,7 @@ public class Collection implements CollectionInterface
     public void showDistribution()
     {
         final int VOTES_PER_STAR = 150;
+        Node current;
 
         System.out.println("\nVote Distribution for" + getElectorateName() + ":\n");
 
@@ -225,7 +226,7 @@ public class Collection implements CollectionInterface
         }
         else
         {
-            Node current = firstCandidate;
+             current = firstCandidate;
              
             while (current !=null)
             {
@@ -279,7 +280,7 @@ public class Collection implements CollectionInterface
        }
        else
        {
-        int[] tally = new int[MAX_CANDIDATES];
+         int[] tally = new int[MAX_CANDIDATES];
 
         Node current = firstCandidate;
         while (current != null)
