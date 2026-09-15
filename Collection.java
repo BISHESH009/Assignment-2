@@ -322,6 +322,7 @@ public class Collection implements CollectionInterface
 	 */
     public void closeElection()
     {
+        // quota formula: total ballots divided by (seats + 1), plus 1, rounded down
         quota = numBallots / (NUMBER_TO_BE_ELECTED + 1) + 1;
     }
 
