@@ -13,7 +13,7 @@ public class Cluster implements ClusterInterface
     protected String bundleName;        // candidate for whom this cluster of votes is for
     protected double weightedCount;     // weight of votes in this cluster
     protected int rawCount;             // raw count of votes in this cluster
-    protected Node firstBallot;       // first ballot in the cluster (linked list of ballots)
+    protected Node firstBallot;       //  reference to the first ballot node; ballots are strored in descending preference order
 	/**
 	 * Constructor
 	 * 
