@@ -5,6 +5,8 @@
  * 
  * @author Bishesh kc 778434
  * @version	14/09/2026
+ * 
+ * purpose: Stores all candidate clusters and runs the hare-Clark election, electing candidate each round
  */
 
 
