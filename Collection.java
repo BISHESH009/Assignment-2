@@ -22,7 +22,7 @@ public class Collection implements CollectionInterface
     protected int numCandidates;    // the number of candidates still in the election
     protected int numBallots;       // how many ballot papers were submitted this election
     protected int numElected;       // the number of confirmed elections so far
-    protected Node firstCandidate; // the first candidate cluster in this collection (linked list)
+    protected Node firstCandidate; // reference to the first candidate cluster; new candidates are appended to th end of the list
 	/**
 	 * Constructor
 	 * 
