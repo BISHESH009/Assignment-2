@@ -70,6 +70,7 @@ public class Collection implements CollectionInterface
 
     /**
      * 
+     * getElectorateName()
      * @return String -- the name of the electorate
      * 
      * Precondition: None
