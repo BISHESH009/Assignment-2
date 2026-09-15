@@ -43,7 +43,7 @@ public class AssigTwo226
 		int round;				// round number of preference distribution
 		String outcome;			// result of preference distribution for the round
 
-		// produce title
+		// produce title screen show at the start of the program 
 		System.out.println();
 		System.out.println("Australia Votes 2026");
 		System.out.println("====================\n");
