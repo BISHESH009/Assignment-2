@@ -5,6 +5,8 @@
  * 
  * @author Bishesh kc 778434
  * @version	14/09/2026
+ * 
+ * purpose: stores and manages the ballots for a single candidate, keeping them sorted by prefernce
  */
 
 public class Cluster implements ClusterInterface
