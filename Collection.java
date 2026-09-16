@@ -324,6 +324,7 @@ public class Collection implements CollectionInterface
 	 * Informally: Determine the quota required for election now
      *                  that voting has closed
 	 */
+    // This method should be called once, after all ballots have been read in.
     public void closeElection()
     {
         // quota formula: total ballots divided by (seats + 1), plus 1, rounded down
