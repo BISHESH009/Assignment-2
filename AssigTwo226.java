@@ -92,8 +92,9 @@ public class AssigTwo226
 			outcome = collection.distributePreferences();	// complete distribution for that round
 		}
 		/**/
-
+        // clean up resources before the program ends
 		// close the Scanner object
+	
 		sc.close();
     }
 }
