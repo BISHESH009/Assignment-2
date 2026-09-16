@@ -12,8 +12,8 @@
 public class Cluster implements ClusterInterface
 {
     // instance variables
-    protected String bundleName;        // candidate for whom this cluster of votes is for
-    protected double weightedCount;     // weight of votes in this cluster
+    protected String bundleName;        // candidate for whom this cluster of votes is for; set once and never changed 
+    protected double weightedCount;     // weight of votes in this cluster; updated as ballots are added or removed
     protected int rawCount;             // raw count of votes in this cluster
     protected Node firstBallot;       //  reference to the first ballot node; ballots are strored in descending preference order
 	/**
