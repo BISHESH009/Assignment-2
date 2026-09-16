@@ -70,7 +70,7 @@ public class Cluster implements ClusterInterface
 	 * Precondition: None
 	 * Postcondition: the first ballot in the cluster is returned if the
      *                  cluster is non-empty; null is returned otherwise.
-	 * Informally: Get the first ballot paper in the cluster.
+	 * Informally: Get the first ballot paper in the cluster, which is the one with the lowest preference number stored
 	 */
     public Ballot getFirstBallot()
     {
