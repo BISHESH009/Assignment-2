@@ -247,7 +247,7 @@ public class Cluster implements ClusterInterface
 	 */
     public Ballot transfer(double residual)
     {
-         final double FULL_WEIGHT = -1;
+         final double FULL_WEIGHT = -1; // sentinel value meaning keep the ballot full weight
 		 if (isEmpty())
 		 {
 			return null;
