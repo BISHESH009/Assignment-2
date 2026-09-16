@@ -115,7 +115,7 @@ public class Collection implements CollectionInterface
 	 */
     public void addBallotToCollection(Ballot votes)
     {
-      // if this is the first ballot, then we have ever seen, set up all the clusters
+      // if this is the first ballot, then we have to set up all the clusters
       if (isEmpty())
       {
         electorateName = votes.getElectorate();
