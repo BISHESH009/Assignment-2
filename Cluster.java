@@ -151,9 +151,10 @@ public class Cluster implements ClusterInterface
 		// there are two pointers that help us find were to put the new node 
 		Node previous = null;
 		Node current = firstBallot;
+		boolean foundSpot = false;
 
 		// walk through the link unit we can find the right place
-		while (current != null)
+		while (current != null && !foundSpot)
 		{
 			Ballot currentBallot = (Ballot) current.getData();
 
@@ -164,7 +165,7 @@ public class Cluster implements ClusterInterface
 			}
 			else
 			{
-				break;
+				foundSpot = true;
 			}
 		}
 
