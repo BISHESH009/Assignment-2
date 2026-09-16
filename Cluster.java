@@ -196,9 +196,8 @@ public class Cluster implements ClusterInterface
      *                  given preference
 	 * 
 	 * Precondition: None
-	 * Postcondition: the first ballot in the cluster is returned if the
-     *                  cluster is non-empty; null is returned otherwise.
-	 * Informally: Get the first ballot paper in the cluster.
+	 * Postcondition: the count of ballot where the given candidate is ranked at the given preference is returned in the cluster is returned.
+	 * Informally: Count how many ballots have the given candidate at the given preference position.
 	 */
     public int votesFor(String candidate, int preference)
     {
