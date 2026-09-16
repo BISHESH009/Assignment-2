@@ -17,7 +17,7 @@ public class Collection implements CollectionInterface
     final protected int NUMBER_TO_BE_ELECTED;   // the number of positions to be filled
 
     // would-be-final instance variables, if enforceable
-    protected int quota;                // how many votes are required to become elected
+    protected int quota;                // how many votes are required to become elected; calculated once in closeElection()
     protected String electorateName;    // the name of the electorate
 
     // non-final instance variables
