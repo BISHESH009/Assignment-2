@@ -224,7 +224,7 @@ public class Collection implements CollectionInterface
 
         if (isEmpty())
         {
-            System.out.println("no data!");
+            System.out.println("No data!");
         }
         else
         {
