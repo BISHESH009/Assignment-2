@@ -160,7 +160,7 @@ public class Collection implements CollectionInterface
            {
             thisCluster.addBallotToCluster(votes);
             numBallots = numBallots +1;
-            break;
+            found = true;
            }
            else 
            {
